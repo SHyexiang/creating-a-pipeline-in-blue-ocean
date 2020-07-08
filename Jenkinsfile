@@ -10,7 +10,6 @@ pipeline {
     stage('build') {
       steps {
         sh 'npm install'
-        sh 'yum -y install vim'
       }
     }
 
